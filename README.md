@@ -54,7 +54,7 @@ Parameter usage:
 >
 * Calculate the VQGS, VQGS+ and VQGS+ with color data:
 
-File: src.main.java.StaticCal.java
+File: src.main.java.vqgs.StaticCal.java
 >javac StaticCal.java <br> 
 >java StaticCal  -s &lt;dataset file path&gt;  -d &lt;delta>  -r &lt;rate&gt;
 
@@ -83,6 +83,6 @@ The demo is coming with the data of Porto for total 5k trajectories, keyboard in
  
  * Get all the screenshot:
  
- File: src.main.java.VQGS.app.ScreenShot.java
+ File: src.main.java.vqgs.app.ScreenShot.java
  >javac ScreenShot.java <br> 
  >java ScreenShot -s &lt;dataset file path&gt;  -g &lt;VFGS/VFGS+ file directory path&gt;

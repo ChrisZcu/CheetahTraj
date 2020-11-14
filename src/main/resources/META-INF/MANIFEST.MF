@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Main-Class: index.QuadTree
+Class-Path: jogl-all-2.3.2-natives-android-aarch64.jar lwjgl-3.2.2-nativ
+ es-windows.jar jutils-1.0.0.jar gluegen-rt-2.3.2-natives-windows-i586.j
+ ar gluegen-rt-2.3.2-natives-solaris-amd64.jar lwjgl-jawt-3.2.2.jar jogl
+ -all-2.3.2-natives-windows-amd64.jar lwjgl3-awt-0.1.5.jar gluegen-rt-2.
+ 3.2-natives-linux-i586.jar gluegen-rt-2.3.2-natives-macosx-universal.ja
+ r lwjgl-opengl-3.2.2.jar gluegen-rt-2.3.2-natives-windows-amd64.jar jin
+ put-platform-2.0.5-natives-linux.jar jogl-all-2.3.2-natives-linux-armv6
+ .jar gluegen-rt-2.3.2-natives-solaris-i586.jar jogl-all-main-2.3.2.jar 
+ gluegen-rt-2.3.2-natives-linux-armv6hf.jar gluegen-rt-2.3.2-natives-and
+ roid-armv6.jar gluegen-rt-2.3.2-natives-android-aarch64.jar gluegen-rt-
+ 2.3.2-natives-linux-armv6.jar lwjgl-2.9.3.jar jogl-all-2.3.2-natives-ma
+ cosx-universal.jar jogl-all-2.3.2-natives-linux-armv6hf.jar jinput-plat
+ form-2.0.5-natives-osx.jar gluegen-rt-2.3.2-natives-linux-amd64.jar jin
+ put-platform-2.0.5-natives-windows.jar lucene-core-4.0.0.jar jogl-all-2
+ .3.2-natives-linux-i586.jar lwjgl-platform-2.9.3-natives-osx.jar lwjgl-
+ vulkan-3.2.2.jar lwjgl-platform-2.9.3-natives-windows.jar log4j-1.2.17.
+ jar gluegen-rt-main-2.3.2.jar commons-lang3-3.9.jar lwjgl-opengl-3.2.2-
+ natives-windows.jar jogl-all-2.3.2-natives-android-armv6.jar jogl-all-2
+ .3.2-natives-linux-amd64.jar lwjgl-3.2.2.jar jogl-all-2.3.2-natives-win
+ dows-i586.jar jogl-all-2.3.2-natives-solaris-i586.jar jogl-all-2.3.2.ja
+ r gluegen-rt-2.3.2.jar jogl-all-2.3.2-natives-solaris-amd64.jar jinput-
+ 2.0.5.jar lwjgl-platform-2.9.3-natives-linux.jar commons-io-2.4.jar unf
+ olding.0.9.92.jar core-3.3.7.jar
+

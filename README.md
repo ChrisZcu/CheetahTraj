@@ -35,6 +35,7 @@ Others:
 We use two datasets in our work:
 * GPS data for taxis in Portugal.
 * GPS data for taxis in Shenzhen, China.
+* GPS data for taxis in Chengdu, China.
 
 
 The paths of the data(part) are *data/porto_5k* and *data/shenzhen_5k*, if you need the full dataset, please contect with us.

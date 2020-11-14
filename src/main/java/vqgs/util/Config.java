@@ -15,13 +15,13 @@ public class Config {
     @CmdOption(names = {"--dataset", "-s"}, args = {"DATASET"}, description = "The dataset path")
     public String dataset = null;
 
-    @CmdOption(names = {"--vfgs", "-g"}, args = {"VFGS"}, description = "VFGS/VFGS+ calculation result directory path")
+    @CmdOption(names = {"--vqgs", "-g"}, args = {"VQGS"}, description = "VQGS/VQGS+ calculation result directory path")
     public String vfgs = null;
 
-    @CmdOption(names = {"--delta", "-d"}, args = {"DELTA"}, description = "The delta in VFGS+, 64 by default")
+    @CmdOption(names = {"--delta", "-d"}, args = {"DELTA"}, description = "The delta in VQGS+, 64 by default")
     public int delta = 64;
 
-    @CmdOption(names = {"--rate", "-r"}, args = {"RATE"}, description = "The sampling rate in VFGS/VFGS+, 0.005 by default")
+    @CmdOption(names = {"--rate", "-r"}, args = {"RATE"}, description = "The sampling rate in VQGS/VQGS+, 0.005 by default")
     public String rate = "0.005";
 
     @CmdOption(names = {"--datatype", "-t"}, args = {"DATATYPE"}, description = "The data type, including Shenzhen data(0) and Portugal dataset(1)")

@@ -16,9 +16,9 @@ Calculate VQGS:
 
 * src.main.java.vqgs.vfgs.PreProcess.java: Pre-process for the original dataset.
 
-* src.main.java.vqgs.vfgs.VFGS.java: The VFGS algorithm mentioned in the paper. Store all the result into static files. 
+* src.main.java.vqgs.vfgs.VFGS.java: The VQGS algorithm mentioned in the paper. Store all the result into static files. 
 
-* src.main.java.vqgs.app.VFGSColor.java: The VFGS+ algorithm with color attribute mentioned in the paper.
+* src.main.java.vqgs.app.VFGSColor.java: The VQGS+ algorithm with color attribute mentioned in the paper.
 
 * src.main.java.vqgs.app.ScreenShot.java: get the screenshot of the result, the figures are all in the *data/figure_result*. 
 
@@ -48,10 +48,10 @@ Parameter usage:
 >   --dataset, -s DATASET    :The dataset path<br>
 >   --datatype, -t DATATYPE  :The data type, including Shenzhen data(0) and Portugal
                            dataset(1)<br>
-   --delta, -d DELTA        :The delta in VFGS+, 64 by default<br>
+   --delta, -d DELTA        :The delta in VQGS+, 64 by default<br>
    --help, -h               :Show the help<br>
-   --rate, -r RATE          :The sampling rate in VFGS/VFGS+, 0.005 by default<br>
-   --vfgs, -g VFGS          :VFGS/VFGS+ calculation result directory path<br>
+   --rate, -r RATE          :The sampling rate in VQGS/VQGS+, 0.005 by default<br>
+   --vfgs, -g VQGS          :VQGS/VQGS+ calculation result directory path<br>
 >
 * Calculate the VQGS, VQGS+ and VQGS+ with color data:
 
@@ -73,8 +73,8 @@ The demo is coming with the data of Porto for total 5k trajectories, keyboard in
    >| p  | save the current screenshot  |
    >| o  | print current location |
    > |1 | show the full dataset|
-   > | 2 | show the result of VFGS without color|                                                                                                          
-   > |3 | show the result of VFGS with color|
+   > | 2 | show the result of VQGS without color|                                                                                                          
+   > |3 | show the result of VQGS with color|
    > |4| show the random result|                                                                                                          
    > |d| increase the delta value|
    > |a| decrease the delta value|
@@ -86,4 +86,4 @@ The demo is coming with the data of Porto for total 5k trajectories, keyboard in
  
  File: src.main.java.vqgs.app.ScreenShot.java
  >javac ScreenShot.java <br> 
- >java ScreenShot -s &lt;dataset file path&gt;  -g &lt;VFGS/VFGS+ file directory path&gt;
+ >java ScreenShot -s &lt;dataset file path&gt;  -g &lt;VQGS/VQGS+ file directory path&gt;

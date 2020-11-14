@@ -83,6 +83,6 @@ The demo is coming with the data of Porto for total 5k trajectories, keyboard in
  
  * Get all the screenshot:
  
- File: src.main.java.app.ScreenShot.java
+ File: src.main.java.VQGS.app.ScreenShot.java
  >javac ScreenShot.java <br> 
  >java ScreenShot -s &lt;dataset file path&gt;  -g &lt;VFGS/VFGS+ file directory path&gt;

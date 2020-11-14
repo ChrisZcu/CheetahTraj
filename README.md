@@ -51,7 +51,7 @@ Parameter usage:
    --delta, -d DELTA        :The delta in VQGS+, 64 by default<br>
    --help, -h               :Show the help<br>
    --rate, -r RATE          :The sampling rate in VQGS/VQGS+, 0.005 by default<br>
-   --vfgs, -g VQGS          :VQGS/VQGS+ calculation result directory path<br>
+   --vqgs, -g VQGS          :VQGS/VQGS+ calculation result directory path<br>
 >
 * Calculate the VQGS, VQGS+ and VQGS+ with color data:
 

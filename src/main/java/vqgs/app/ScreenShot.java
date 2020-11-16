@@ -1,7 +1,7 @@
-package app;
+package vqgs.app;
 
 import de.tototec.cmdoption.CmdlineParser;
-import util.Config;
+import vqgs.util.Config;
 
 public class ScreenShot {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class ScreenShot {
             System.exit(0);
         }
         if (config.color)
-            origin.util.screenShot.main(args);
-        else origin.util.draw_with_color_sz.main(args);
+            vqgs.origin.util.screenShot.main(args);
+        else vqgs.origin.util.draw_with_color_sz.main(args);
     }
 }

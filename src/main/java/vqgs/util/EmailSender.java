@@ -1,4 +1,4 @@
-package util;
+package vqgs.util;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

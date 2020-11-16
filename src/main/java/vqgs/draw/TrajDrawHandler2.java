@@ -1,10 +1,10 @@
-package draw;
+package vqgs.draw;
 
-import app.ThreadMapApp;
+import vqgs.app.ThreadMapApp;
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.utils.ScreenPosition;
-import model.Trajectory;
+import vqgs.model.Trajectory;
 import processing.core.PGraphics;
 
 import java.awt.*;

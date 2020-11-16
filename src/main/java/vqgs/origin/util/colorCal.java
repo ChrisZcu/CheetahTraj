@@ -1,12 +1,12 @@
-package origin.util;
+package vqgs.origin.util;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.providers.MapBox;
 import de.fhpotsdam.unfolding.utils.MapUtils;
 import processing.core.PApplet;
-import origin.model.Position;
-import origin.model.Trajectory;
+import vqgs.origin.model.Position;
+import vqgs.origin.model.Trajectory;
 
 import java.io.*;
 import java.util.ArrayList;

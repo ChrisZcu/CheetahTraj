@@ -1,11 +1,11 @@
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.tototec.cmdoption.CmdlineParser;
 import processing.core.PApplet;
-import util.*;
-import vfgs.PreProcess;
-import vfgs.Quality;
-import vfgs.VFGS;
-import vfgs.VFGSColor;
+import vqgs.util.*;
+import vqgs.vfgs.PreProcess;
+import vqgs.vfgs.Quality;
+import vqgs.vfgs.VFGS;
+import vqgs.vfgs.VFGSColor;
 
 /**
  * Run all processes conveniently.

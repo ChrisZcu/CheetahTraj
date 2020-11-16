@@ -1,9 +1,9 @@
-package draw;
+package vqgs.draw;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.utils.ScreenPosition;
-import model.Trajectory;
+import vqgs.model.Trajectory;
 import processing.core.PGraphics;
 
 import java.awt.*;
@@ -11,11 +11,9 @@ import java.util.Vector;
 
 /**
  * Handler class for traj painting.
- * Use in {@link app.Interface_G4P}.
  * <p>
  * This class draw a part of trajectories to flash.
  *
- * @see app.Interface_G4P#updateTrajImages(int)
  */
 public class TrajDrawHandler extends Thread {
     private final UnfoldingMap map;
@@ -24,9 +22,9 @@ public class TrajDrawHandler extends Thread {
     private final Trajectory[] trajList;    // all traj
     private final Vector<Long> newestId;    // the newest id of outer frame
     private final boolean colored;        // traj color shader for VFGS+ CE
-    /** Just use local settings for now. See {@link util.PSC#BREAKS} */
+    /** Just use local settings for now. See {@link vqgs.util.PSC#BREAKS} */
     private final int[] breaks;
-    private final Color[] colors;       /** {@link util.PSC#COLORS} */
+    private final Color[] colors;       /** {@link vqgs.util.PSC#COLORS} */
     private final int[] trajCnt;        // record the # of painted traj
     private final int partIdx;          // the assignment idx in trajImages
     private final int index, threadNum;      // the begin and the step for select traj

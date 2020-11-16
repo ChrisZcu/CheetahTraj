@@ -1,4 +1,4 @@
-package origin.util;
+package vqgs.origin.util;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.interactions.KeyboardHandler;

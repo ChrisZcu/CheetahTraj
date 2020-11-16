@@ -1,15 +1,15 @@
-package util;
+package vqgs.util;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.utils.ScreenPosition;
-import model.Position;
-import model.Trajectory;
+import vqgs.model.Position;
+import vqgs.model.Trajectory;
 import processing.core.PApplet;
 
 import java.util.HashSet;
 
-import static util.PSC.*;
+import static vqgs.util.PSC.*;
 
 /**
  * This class is for finding some features of data,

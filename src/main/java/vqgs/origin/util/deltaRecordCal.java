@@ -1,4 +1,4 @@
-package origin.util;
+package vqgs.origin.util;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
@@ -6,8 +6,8 @@ import de.fhpotsdam.unfolding.utils.MapUtils;
 import de.fhpotsdam.unfolding.utils.ScreenPosition;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
-import origin.model.Position;
-import origin.model.Trajectory;
+import vqgs.origin.model.Position;
+import vqgs.origin.model.Trajectory;
 import processing.core.PApplet;
 
 import java.io.BufferedWriter;
@@ -36,7 +36,7 @@ public class deltaRecordCal extends PApplet {
     private static List<Trajectory> TrajTotal; //所有traj 等同于arr
     private static UnfoldingMap map;
     private static HashSet<Position> trajSet = new HashSet<>();    // R+
-    private static origin.util.GreedyChoose GreedyChoose;
+    private static vqgs.origin.util.GreedyChoose GreedyChoose;
     private static HashSet<Position> totalTrajPos = new HashSet<>();
 
     private static final int[] DELTALIST = {0, 4, 8, 16/*, 32, 50, 64, 128*/};

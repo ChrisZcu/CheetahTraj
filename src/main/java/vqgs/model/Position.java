@@ -1,4 +1,4 @@
-package model;
+package vqgs.model;
 
 /**
  * Pixel level position on the screen

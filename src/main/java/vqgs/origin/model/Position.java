@@ -1,4 +1,4 @@
-package origin.model;
+package vqgs.origin.model;
 
 public class Position {
     int x;

@@ -1,18 +1,18 @@
-package vfgs;
+package vqgs.vfgs;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
-import model.Position;
-import model.Trajectory;
+import vqgs.model.Position;
+import vqgs.model.Trajectory;
 import processing.core.PApplet;
-import util.DM;
-import util.PSC;
-import util.TrajHeap;
-import util.WF;
+import vqgs.util.DM;
+import vqgs.util.PSC;
+import vqgs.util.TrajHeap;
+import vqgs.util.WF;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
-import static util.PSC.*;
+import static vqgs.util.PSC.*;
 
 /**
  * VFGS Main Algorithm

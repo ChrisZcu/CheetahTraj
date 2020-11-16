@@ -1,7 +1,7 @@
-package origin.util;
+package vqgs.origin.util;
 
 import de.fhpotsdam.unfolding.geo.Location;
-import origin.model.Trajectory;
+import vqgs.origin.model.Trajectory;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 

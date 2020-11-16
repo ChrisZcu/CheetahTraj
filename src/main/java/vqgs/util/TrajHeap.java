@@ -1,6 +1,6 @@
-package util;
+package vqgs.util;
 
-import model.Trajectory;
+import vqgs.model.Trajectory;
 
 /**
  * Max Heap of Traj.

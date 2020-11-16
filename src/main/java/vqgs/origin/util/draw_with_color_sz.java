@@ -1,4 +1,4 @@
-package origin.util;
+package vqgs.origin.util;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
@@ -9,8 +9,8 @@ import de.tototec.cmdoption.CmdlineParser;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 import processing.core.PApplet;
-import origin.model.Trajectory;
-import util.Config;
+import vqgs.origin.model.Trajectory;
+import vqgs.util.Config;
 
 import java.io.BufferedReader;
 import java.io.File;

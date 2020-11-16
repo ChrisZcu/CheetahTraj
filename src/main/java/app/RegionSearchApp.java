@@ -9,11 +9,9 @@ import draw.TrajDrawManagerSingleMap;
 import index.QuadTree;
 import index.SearchRegionPart;
 import model.*;
-import org.w3c.dom.css.Rect;
 import processing.core.PApplet;
 import processing.core.PGraphics;
 import processing.core.PImage;
-import processing.event.KeyEvent;
 import util.PSC;
 
 import java.awt.*;

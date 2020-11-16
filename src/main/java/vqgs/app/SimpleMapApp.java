@@ -1,4 +1,4 @@
-package app;
+package vqgs.app;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.data.Feature;
@@ -8,7 +8,7 @@ import de.fhpotsdam.unfolding.marker.MarkerManager;
 import de.fhpotsdam.unfolding.providers.MapBox;
 import de.fhpotsdam.unfolding.utils.MapUtils;
 import processing.core.PApplet;
-import util.DM;
+import vqgs.util.DM;
 
 import java.util.ArrayList;
 import java.util.Arrays;

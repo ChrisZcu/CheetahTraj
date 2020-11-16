@@ -1,4 +1,4 @@
-package origin.model;
+package vqgs.origin.model;
 
 import de.fhpotsdam.unfolding.geo.Location;
 

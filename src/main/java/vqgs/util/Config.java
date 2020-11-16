@@ -1,6 +1,4 @@
-package util;
-
-import java.util.*;
+package vqgs.util;
 
 import de.tototec.cmdoption.CmdOption;
 import de.tototec.cmdoption.CmdlineParser;

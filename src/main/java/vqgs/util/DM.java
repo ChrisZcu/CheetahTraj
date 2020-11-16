@@ -1,8 +1,8 @@
-package util;
+package vqgs.util;
 
 import de.fhpotsdam.unfolding.geo.Location;
-import model.Position;
-import model.Trajectory;
+import vqgs.model.Position;
+import vqgs.model.Trajectory;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 

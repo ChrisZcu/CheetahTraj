@@ -1,4 +1,4 @@
-package origin;
+package vqgs.origin;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.events.EventDispatcher;
@@ -6,13 +6,13 @@ import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.providers.MapBox;
 import de.fhpotsdam.unfolding.utils.MapUtils;
 import de.fhpotsdam.unfolding.utils.ScreenPosition;
-import origin.model.Trajectory;
+import vqgs.origin.model.Trajectory;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 import processing.core.PApplet;
 import processing.core.PImage;
-import origin.util.MyKeyboardHandler;
-import origin.util.GreedyChoose;
+import vqgs.origin.util.MyKeyboardHandler;
+import vqgs.origin.util.GreedyChoose;
 
 import java.io.File;
 import java.io.IOException;

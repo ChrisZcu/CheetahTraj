@@ -2,7 +2,6 @@ package app;
 
 import com.jogamp.opengl.GL3;
 import com.jogamp.opengl.util.GLBuffers;
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.providers.MapBox;
@@ -14,12 +13,9 @@ import processing.core.PApplet;
 import processing.opengl.PJOGL;
 import select.TimeProfileManager;
 import util.PSC;
-import util.VFGS;
 
-import javax.sound.midi.SysexMessage;
 import java.awt.*;
 import java.io.*;
-import java.nio.Buffer;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 import java.util.*;

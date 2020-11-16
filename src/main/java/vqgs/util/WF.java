@@ -1,4 +1,4 @@
-package util;
+package vqgs.util;
 
 /**
  * Algorithm Work Flow

@@ -1,6 +1,6 @@
-package origin;
+package vqgs.origin;
 
-import origin.util.deltaRecordCal;
+import vqgs.origin.util.deltaRecordCal;
 
 /**
  * -Xmn2048m -Xms8192m -Xmx8192m

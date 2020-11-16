@@ -1,4 +1,4 @@
-package util;
+package vqgs.util;
 
 import de.fhpotsdam.unfolding.geo.Location;
 
@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
-import static util.WF.*;
+import static vqgs.util.WF.*;
 
 /**
  * Parameters Setting Class

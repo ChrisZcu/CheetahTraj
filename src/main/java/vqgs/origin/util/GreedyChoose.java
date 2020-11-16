@@ -1,6 +1,6 @@
-package origin.util;
+package vqgs.origin.util;
 
-import origin.model.Trajectory;
+import vqgs.origin.model.Trajectory;
 
 /**
  * Max Heap

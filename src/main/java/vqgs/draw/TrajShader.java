@@ -1,6 +1,6 @@
-package draw;
+package vqgs.draw;
 
-import model.Trajectory;
+import vqgs.model.Trajectory;
 
 import java.awt.*;
 import java.util.Arrays;
